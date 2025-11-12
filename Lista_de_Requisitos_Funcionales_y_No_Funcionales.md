@@ -2,6 +2,80 @@
 
 ## REQUISITOS FUNCIONALES
 
+### Gestión de Usuarios y Roles:
+
+**RF-001.1:** El sistema debe permitir al personal administrativo registrar nuevos participantes en el centro de entrenamiento, capturando su información personal y de contacto.
+
+**RF-001.2:** El sistema debe permitir al personal administrativo y a los participantes buscar la información de un participante de forma ágil.
+
+**RF-001.3:** El sistema debe permitir al personal administrativo registrar y gestionar la información detallada de los instructores.
+
+**RF-001.4:** El sistema debe proporcionar un mecanismo para registrar y gestionar formalmente los incidentes que puedan ocurrir en el centro de entrenamiento.
+
+### Reportes y cumplimiemtos:
+
+**RF-002.1:** El sistema debe automatizar el proceso de cierre de mes, consolidando los datos de los participantes que aprobaron sus cursos para generar los certificados correspondientes.
+
+**RF-002.2:** El sistema debe generar informes diarios detallando los cursos ejecutados al cierre de cada jornada laboral.
+
+**RF-002.3:** El sistema debe funcionar como un repositorio central para el cumplimiento de auditorías, con la capacidad de generar informes exhaustivos bajo demanda, rastreando y organizando digitalmente todos los registros relevantes.
+
+**RF-002.4:** El sistema debe permitir a los participantes buscar e imprimir su propio certificado de alturas una vez finalizado el curso.
+
+**RF-002.5:** El sistema debe permitir al personal administrativo corregir directamente errores en la entrada de datos para evitar ineficiencias.
+
 ---
 
 ## REQUISITOS NO FUNCIONALES
+
+### Usabilidad:
+
+**RNF-001.1:** El sistema debe ser muy sencillo e intuitivo, facilitando la incorporación de futuros empleados sin necesidad de una capacitación técnica extensiva.
+
+**RNF-001.2:** El sistema debe ser accesible para personas con discapacidades y priorizar iconografía clara y señales visuales sobre instrucciones con mucho texto, especialmente en módulos orientados a participantes.
+
+**RNF-001.3:** El sistema debe ser operable tanto con el teclado como con el ratón.
+
+**RNF-001.4:** El sistema debe permitir a los usuarios cambiar el tamaño de la fuente.
+
+### Rendimiento:
+
+**RNF-002.1:** El sistema debe soportar un número determinado de usuarios operando simultáneamente sin degradación significativa del rendimiento.
+
+**RNF-002.2:** Las operaciones críticas del sistema deben ejecutarse en un tiempo de respuesta aceptable.
+
+**RNF-002.3:** La búsqueda de un participante por su número de documento debe ser extremadamente rápida.
+
+**RNF-002.4:** Las tareas realizadas por usuarios expertos (personal administrativo) deben completarse eficientemente.
+
+**RNF-002.5:** El sistema debe ser capaz de manejar un volumen significativo de datos de usuarios proyectado a futuro.
+
+### Seguridad:
+
+**RNF-003.1:** El sistema debe implementar dos modelos de acceso distintos para la autenticación de usuarios.
+
+**RNF-003.2:** El sistema debe incluir un sistema para la gestión de contraseñas con políticas de complejidad o caducidad para cuentas de usuarios internos.
+
+**RNF-003.3:** El sistema debe proteger datos personales sensibles y certificaciones, cumpliendo con las leyes nacionales de protección de datos.
+
+**RNF-003.4:** El sistema debe registrar "quién hizo qué y cuándo" para auditar las acciones de los usuarios.
+
+### Fiabilidad:
+
+**RNF-004.1:** El sistema debe implementar una estrategia de respaldo de datos robusta.
+
+**RNF-004.2:** El sistema debe permitir la recuperación de datos en un tiempo limitado para minimizar la interrupción del negocio.
+
+**RNF-004.3:** La estrategia de respaldo debe combinar almacenamiento local y en la nube.
+
+### Escalabilidad:
+
+**RNF-005.1:** El sistema debe ser desarrollado como una aplicación web.
+
+**RNF-005.2:** El sistema NO debe integrarse con sistemas externos como el del Ministerio de Trabajo.
+
+### Cumplimiento regulatorio y legal:
+
+**RNF-006.1:** Se debe proporcionar un manual de usuario o guía de instalación para que los usuarios operen el sistema de forma autónoma y eficiente.
+
+**RNF-006.2:** La documentación del sistema debe mantenerse actualizada para reflejar cualquier cambio o mejora.
