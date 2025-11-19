@@ -12,7 +12,7 @@
 
 ---
 
-## PREGUNTA PROBLEMICA
+## PREGUNTA PROBLEMA
 
 ¿De qué manera el diseño e implementación de un sistema de información integral puede mejorar la gestión de datos, optimizar los procesos administrativos y operativos, y fortalecer la toma de decisiones en la empresa TITAN-ES SEGURIDAD EN ALTURAS, contribuyendo a una mayor eficiencia y seguridad en sus operaciones?
 
